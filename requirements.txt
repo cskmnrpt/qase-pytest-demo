@@ -1,0 +1,6 @@
+playwright==1.46.0
+pytest-playwright==0.5.1
+qase-api-client==1.1.0
+qase-api-v2-client==1.0.0
+qase-pytest==6.1.1b2
+qase-python-commons==3.1.1
