@@ -1,0 +1,34 @@
+{
+    "mode": "testops", 
+    "fallback": "report",
+    "testops": {
+      "project": "<project>",
+      "api": {
+        "token": "<token>",
+        "host": "qase.io"
+      },
+      "run": {
+        "title": "Pytest with Playwright"
+      },
+      "batch": {
+        "size": 100
+      }
+    },
+      "report": {
+      "driver": "local",
+      "connection": {
+        "local": {
+          "path": "./build/qase-report",
+          "format": "json" 
+        }
+      }
+    },
+    "framework": {
+      "pytest": {
+        "capture": {
+          "logs": true,
+          "http": true
+        }
+      }
+    }
+  }
